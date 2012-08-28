@@ -1,0 +1,30 @@
+<query>
+	<name>Temperature and humidity</name>
+	<description>Temperature and humidity from Arduino Ethernet and Sensor dht11</description>
+	<script_path>|path_cacti|/scripts/get_temperature.py</script_path>
+	<arg_index>--index</arg_index>
+	<arg_query>--query</arg_query>
+	<arg_get>--get</arg_get>
+	<arg_prepend>|host_hostname|</arg_prepend>
+	<output_delimeter>:</output_delimeter>
+	<index_order>device</index_order>
+	<index_order_type>alphabetic</index_order_type>
+	<index_title_format>|chosen_order_field|</index_title_format>
+	<fields>
+		<device>
+			<name>Device</name>
+			<direction>input</direction>
+			<query_name>device</query_name>
+		</device>
+		<temperature>
+			<name>Temperature</name>
+			<direction>output</direction>
+			<query_name>temperature</query_name>
+		</temperature>
+ 		<humidity>
+			<name>Humidity</name>
+			<direction>output</direction>
+			<query_name>humidity</query_name>
+		</humidity>   
+	</fields>
+</query>
