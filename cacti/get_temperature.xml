@@ -25,6 +25,6 @@
 			<name>Humidity</name>
 			<direction>output</direction>
 			<query_name>humidity</query_name>
-		</humidity>   
+		</humidity>
 	</fields>
 </query>

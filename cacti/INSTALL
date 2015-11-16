@@ -1,10 +1,10 @@
 Instalation:
  1.-  Copy get_temperature.py  to the Cacti scripts directory. Example, On
- Debian or Ubuntu the directory is /usr/share/cacti/site/scripts 
- 
+ Debian or Ubuntu the directory is /usr/share/cacti/site/scripts
+
  2.- Copy get_temperature.xml to the Script Queries directory
- /usr/share/cacti//resource/script_queries/  
- 
+ /usr/share/cacti//resource/script_queries/
+
  3.- Import all cacti template
 
  4.- Go Devices and add "Temperature and humidity" on data query for Host
